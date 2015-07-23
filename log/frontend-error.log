@@ -1,0 +1,44 @@
+2015/07/17 20:28:27 [error] 1184#0: *231 open() "/home/studies/project/project1/frontend/web/img/anh11.jpg" failed (13: Permission denied), client: 127.0.0.1, server: project1.frontend.dev, request: "GET /img/anh11.jpg HTTP/1.1", host: "project1.frontend.dev", referrer: "http://project1.frontend.dev/site/index.html"
+2015/07/17 20:28:27 [error] 1184#0: *230 open() "/home/studies/project/project1/frontend/web/img/anh21.jpg" failed (13: Permission denied), client: 127.0.0.1, server: project1.frontend.dev, request: "GET /img/anh21.jpg HTTP/1.1", host: "project1.frontend.dev", referrer: "http://project1.frontend.dev/site/index.html"
+2015/07/17 20:28:27 [error] 1184#0: *230 open() "/home/studies/project/project1/frontend/web/img/anh11.jpg" failed (13: Permission denied), client: 127.0.0.1, server: project1.frontend.dev, request: "GET /img/anh11.jpg HTTP/1.1", host: "project1.frontend.dev", referrer: "http://project1.frontend.dev/site/index.html"
+2015/07/17 20:28:27 [error] 1184#0: *236 open() "/home/studies/project/project1/frontend/web/img/anh21.jpg" failed (13: Permission denied), client: 127.0.0.1, server: project1.frontend.dev, request: "GET /img/anh21.jpg HTTP/1.1", host: "project1.frontend.dev", referrer: "http://project1.frontend.dev/site/index.html"
+2015/07/18 10:18:04 [error] 1217#0: *440 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'frontend\models\Yii' not found in /home/studies/project/project1/frontend/models/PasswordResetRequestForm.php on line 48" while reading response header from upstream, client: 127.0.0.1, server: project1.frontend.dev, request: "POST /site/request-password-reset.html HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "project1.frontend.dev", referrer: "http://project1.frontend.dev/site/request-password-reset.html"
+2015/07/19 06:42:58 [error] 4065#0: *1 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ship.auth_item' doesn't exist' in /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Command.php:825
+Stack trace:
+#0 /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Command.php(825): PDOStatement->execute()
+#1 /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Command.php(363): yii\db\Command->queryInternal('fetch', NULL)
+#2 /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /home/studies/project/example/ship/vendor/yiisoft/yii2/rbac/DbManager.php(223): yii\db\Query->one(Object(yii\db\Connection))
+#4 /home/studies/project/example/ship/vendor/yiisoft/yii2/rbac/DbManager.php(184): yii\rbac\DbManager->getItem('permission_admi...')
+#5 /home/studies/project/example/ship/vendor/yiisoft/yii2/rbac/DbManager.php(124): yii\rbac\DbManager->checkAccessRecursive(NULL, 'permission_admi" while reading response header from upstream, client: 127.0.0.1, server: shipdi.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "shipdi.dev"
+2015/07/19 06:43:08 [error] 4065#0: *4 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ship.auth_item' doesn't exist' in /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Command.php:825
+Stack trace:
+#0 /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Command.php(825): PDOStatement->execute()
+#1 /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Command.php(363): yii\db\Command->queryInternal('fetch', NULL)
+#2 /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /home/studies/project/example/ship/vendor/yiisoft/yii2/rbac/DbManager.php(223): yii\db\Query->one(Object(yii\db\Connection))
+#4 /home/studies/project/example/ship/vendor/yiisoft/yii2/rbac/DbManager.php(184): yii\rbac\DbManager->getItem('permission_admi...')
+#5 /home/studies/project/example/ship/vendor/yiisoft/yii2/rbac/DbManager.php(124): yii\rbac\DbManager->checkAccessRecursive(NULL, 'permission_admi" while reading response header from upstream, client: 127.0.0.1, server: shipdi.dev, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "shipdi.dev", referrer: "http://shipdi.dev/"
+2015/07/19 06:43:23 [error] 4065#0: *6 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ship.auth_item' doesn't exist' in /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Command.php:825
+Stack trace:
+#0 /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Command.php(825): PDOStatement->execute()
+#1 /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Command.php(363): yii\db\Command->queryInternal('fetch', NULL)
+#2 /home/studies/project/example/ship/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /home/studies/project/example/ship/vendor/yiisoft/yii2/rbac/DbManager.php(223): yii\db\Query->one(Object(yii\db\Connection))
+#4 /home/studies/project/example/ship/vendor/yiisoft/yii2/rbac/DbManager.php(184): yii\rbac\DbManager->getItem('permission_admi...')
+#5 /home/studies/project/example/ship/vendor/yiisoft/yii2/rbac/DbManager.php(124): yii\rbac\DbManager->checkAccessRecursive(NULL, 'permission_admi" while reading response header from upstream, client: 127.0.0.1, server: shipdi.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "shipdi.dev"
+2015/07/19 07:16:56 [error] 4184#0: *422 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in /home/studies/project/project1/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/studies/project/project1/vendor/yiisoft/yii2/web/ErrorHandler.php(80): yii\base\Module->runAction('site/error')
+#1 /home/studies/project/project1/vendor/yiisoft/yii2/base/ErrorHandler.php(101): yii\web\ErrorHandler->renderException(Object(ReflectionException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(ReflectionException))
+#3 {main}
+Previous exception:
+exception 'ReflectionException' with message 'Class mdm\admin\components\AccessControl does not exist' in /home/studies/project/project1/vendor/yiisoft/yii2/di/Container.php:415
+Stack trace:
+#0 /home/studies/project/project1/vendor/yiisoft/yii2/di/Container.php(415): ReflectionClass->__construct('mdm\admin\compo...')
+#1 /home/studies/project/project1/vendor/yiisoft/yii2/di/Co" while reading upstream, client: 127.0.0.1, server: project1.frontend.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "project1.frontend.dev"

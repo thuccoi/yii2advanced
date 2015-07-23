@@ -1,0 +1,36 @@
+2015/07/19 07:17:02 [error] 4184#0: *425 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in /home/studies/project/project1/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/studies/project/project1/vendor/yiisoft/yii2/web/ErrorHandler.php(80): yii\base\Module->runAction('site/error')
+#1 /home/studies/project/project1/vendor/yiisoft/yii2/base/ErrorHandler.php(101): yii\web\ErrorHandler->renderException(Object(ReflectionException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(ReflectionException))
+#3 {main}
+Previous exception:
+exception 'ReflectionException' with message 'Class mdm\admin\components\AccessControl does not exist' in /home/studies/project/project1/vendor/yiisoft/yii2/di/Container.php:415
+Stack trace:
+#0 /home/studies/project/project1/vendor/yiisoft/yii2/di/Container.php(415): ReflectionClass->__construct('mdm\admin\compo...')
+#1 /home/studies/project/project1/vendor/yiisoft/yii2/di/Co" while reading upstream, client: 127.0.0.1, server: project1.backend.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "project1.backend.dev"
+2015/07/19 07:17:14 [error] 4184#0: *426 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in /home/studies/project/project1/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/studies/project/project1/vendor/yiisoft/yii2/web/ErrorHandler.php(80): yii\base\Module->runAction('site/error')
+#1 /home/studies/project/project1/vendor/yiisoft/yii2/base/ErrorHandler.php(101): yii\web\ErrorHandler->renderException(Object(ReflectionException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(ReflectionException))
+#3 {main}
+Previous exception:
+exception 'ReflectionException' with message 'Class mdm\admin\components\AccessControl does not exist' in /home/studies/project/project1/vendor/yiisoft/yii2/di/Container.php:415
+Stack trace:
+#0 /home/studies/project/project1/vendor/yiisoft/yii2/di/Container.php(415): ReflectionClass->__construct('mdm\admin\compo...')
+#1 /home/studies/project/project1/vendor/yiisoft/yii2/di/Co" while reading upstream, client: 127.0.0.1, server: project1.backend.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "project1.backend.dev"
+2015/07/19 07:17:17 [error] 4184#0: *428 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "site/error".' in /home/studies/project/project1/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/studies/project/project1/vendor/yiisoft/yii2/web/ErrorHandler.php(80): yii\base\Module->runAction('site/error')
+#1 /home/studies/project/project1/vendor/yiisoft/yii2/base/ErrorHandler.php(101): yii\web\ErrorHandler->renderException(Object(ReflectionException))
+#2 [internal function]: yii\base\ErrorHandler->handleException(Object(ReflectionException))
+#3 {main}
+Previous exception:
+exception 'ReflectionException' with message 'Class mdm\admin\components\AccessControl does not exist' in /home/studies/project/project1/vendor/yiisoft/yii2/di/Container.php:415
+Stack trace:
+#0 /home/studies/project/project1/vendor/yiisoft/yii2/di/Container.php(415): ReflectionClass->__construct('mdm\admin\compo...')
+#1 /home/studies/project/project1/vendor/yiisoft/yii2/di/Co" while reading upstream, client: 127.0.0.1, server: project1.backend.dev, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php5-fpm.sock:", host: "project1.backend.dev"
